@@ -1,16 +1,203 @@
 {
-  "revision": 0,
+  "revision": 233211,
+  "character_name": "Jack-O Valentine",
+  "game_name_simplified": "strive",
+  "game_name": "Guilty Gear Strive",
+  "character_name_simplified": "jacko",
+  "page_url": "https://www.dustloop.com/wiki/api.php?action=parse&format=json&page=GGST/Jack-O",
   "normal_moves": {
     "5p": {
-      "image_url": "https://dustloop.com/wiki/index.php?title=File:GGST_Jack-O_5P.png",
-      "hitbox_url": "https://dustloop.com/wiki/index.php?title=File:GGST_JackO_5P_Hitbox.png",
-      "damage": ["23"],
+      "image_url": "https://dustloop.com/wiki/images/thumb/0/08/GGST_Jack-O_5P.png/599px-GGST_Jack-O_5P.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/e/e3/GGST_JackO_5P_Hitbox.png/624px-GGST_JackO_5P_Hitbox.png",
+      "damage": ["28"],
       "guard": "ALL",
-      "startup": "5",
-      "active": "4",
+      "startup": ["5"],
+      "active": ["4"],
       "recovery": "8",
       "on_block": "-2",
       "gatling_options": ["5P", "2P", "6P", "6H"]
+    },
+    "5k": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/f/fd/GGST_Jack-O_5K.png/689px-GGST_Jack-O_5K.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/f/fd/GGST_Jack-O_5K.png/689px-GGST_Jack-O_5K.png",
+      "damage": ["27"],
+      "guard": "ALL",
+      "startup": ["7"],
+      "active": ["6"],
+      "recovery": "13",
+      "on_block": "-7",
+      "gatling_options": ["6P", "6H", "5D", "2D"]
+    },
+    "cs": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/5/59/GGST_Jack-O_cS.png/433px-GGST_Jack-O_cS.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/7/75/GGST_JackO_cS_Hitbox.png/470px-GGST_JackO_cS_Hitbox.png",
+      "damage": ["39"],
+      "guard": "ALL",
+      "startup": ["7"],
+      "active": ["6"],
+      "recovery": "13",
+      "on_block": "-7",
+      "gatling_options": ["6P", "fS", "2S", "5H", "2H", "6H", "5D", "2D"]
+    },
+    "fs": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/e/e8/GGST_Jack-O_fS.png/728px-GGST_Jack-O_fS.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/b/b9/GGST_Jack-O_far_Slash_Hitbox.png/728px-GGST_Jack-O_far_Slash_Hitbox.png",
+      "damage": ["32"],
+      "guard": "ALL",
+      "startup": ["11"],
+      "active": ["6"],
+      "recovery": "17",
+      "on_block": "-9",
+      "gatling_options": ["5H", "2H"]
+    },
+    "5h": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/2/27/GGST_Jack-O_5H.png/800px-GGST_Jack-O_5H.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/2/27/GGST_Jack-O_5H.png/800px-GGST_Jack-O_5H.png",
+      "damage": ["24", "24"],
+      "guard": "ALL",
+      "startup": ["10"],
+      "active": ["3","3","2"],
+      "recovery": "17",
+      "on_block": "-9"
+    },
+    "5d": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/c/ca/GGST_Jack-O_5D.png/587px-GGST_Jack-O_5D.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/c/ca/GGST_Jack-O_5D.png/587px-GGST_Jack-O_5D.png",
+      "damage": ["45"],
+      "charge_damage": ["56"],
+      "guard": "HIGH",
+      "startup": ["20"],
+      "charge_startup": "28",
+      "active": ["3"],
+      "recovery": "26",
+      "on_block": "-15",
+      "charge_on_block": "-10"
+    },
+    "6p": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/f/f9/GGST_Jack-O_6P.png/552px-GGST_Jack-O_6P.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/f/f9/GGST_Jack-O_6P.png/552px-GGST_Jack-O_6P.png",
+      "damage": ["28"],
+      "guard": "ALL",
+      "startup": ["10"],
+      "active": ["6"],
+      "recovery": "20",
+      "on_block": "-2"
+    },
+    "6h": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/7/75/GGST_Jack-O_6H.png/800px-GGST_Jack-O_6H.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/7/75/GGST_Jack-O_6H.png/800px-GGST_Jack-O_6H.png",
+      "damage": ["20", "40"],
+      "guard": "ALL",
+      "startup": ["8","19"],
+      "active": ["2","9","11"],
+      "recovery": "14",
+      "on_block": "-6"
+    },
+    "2p": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/4/46/GGST_Jack-O_2P.png/800px-GGST_Jack-O_2P.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/4/46/GGST_Jack-O_2P.png/800px-GGST_Jack-O_2P.png",
+      "damage": ["21"],
+      "guard": "ALL",
+      "startup": ["6"],
+      "active": ["4"],
+      "recovery": "9",
+      "on_block": "-3",
+      "gatling_options": ["5P", "2P", "6P", "6H"]
+    },
+    "2k": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/9/92/GGST_Jack-O_2K.png/799px-GGST_Jack-O_2K.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/9/92/GGST_Jack-O_2K.png/799px-GGST_Jack-O_2K.png",
+      "damage": ["24"],
+      "guard": "LOW",
+      "startup": ["7"],
+      "active": ["3"],
+      "recovery": "14",
+      "on_block": "-5",
+      "gatling_options": ["6P", "6H", "5D", "2D"]
+    },
+    "2s": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/f/f4/GGST_Jack-O_2S.png/404px-GGST_Jack-O_2S.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/f/f4/GGST_Jack-O_2S.png/404px-GGST_Jack-O_2S.png",
+      "damage": ["31"],
+      "guard": "ALL",
+      "startup": ["9"],
+      "active": ["7"],
+      "recovery": "22",
+      "on_block": "-15",
+      "gatling_options": ["5H", "2H"]
+    },
+    "2h": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/a/ad/GGST_Jack-O_2H.png/239px-GGST_Jack-O_2H.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/a/ad/GGST_Jack-O_2H.png/239px-GGST_Jack-O_2H.png",
+      "damage": ["41"],
+      "guard": "ALL",
+      "startup": ["15"],
+      "active": ["6"],
+      "recovery": "18",
+      "on_block": "-5"
+    },
+    "2d": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/b/be/GGST_Jack-O_2D.png/800px-GGST_Jack-O_2D.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/b/be/GGST_Jack-O_2D.png/800px-GGST_Jack-O_2D.png",
+      "damage": ["29"],
+      "guard": "LOW",
+      "startup": ["11"],
+      "active": ["15"],
+      "recovery": "18",
+      "on_block": "-19"
+    },
+    "jp": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/5/52/GGST_Jack-O_jP.png/617px-GGST_Jack-O_jP.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/5/52/GGST_Jack-O_jP.png/617px-GGST_Jack-O_jP.png",
+      "damage": ["19"],
+      "guard": "HIGH",
+      "startup": ["6"],
+      "active": ["4"],
+      "recovery": "6",
+      "on_block": "air",
+      "gatling_options": ["jp"]
+    },
+    "jk": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/6/62/GGST_Jack-O_jK.png/800px-GGST_Jack-O_jK.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/6/62/GGST_Jack-O_jK.png/800px-GGST_Jack-O_jK.png",
+      "damage": ["23"],
+      "guard": "HIGH",
+      "startup": ["7"],
+      "active": ["6"],
+      "recovery": "12",
+      "on_block": "air",
+      "gatling_options": ["jd"]
+    },
+    "js": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/5/52/GGST_Jack-O_jS.png/582px-GGST_Jack-O_jS.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/5/52/GGST_Jack-O_jS.png/582px-GGST_Jack-O_jS.png",
+      "damage": ["28"],
+      "guard": "HIGH",
+      "startup": ["11"],
+      "active": ["5"],
+      "recovery": "21",
+      "on_block": "air",
+      "gatling_options": ["jh"]
+    },
+    "jh": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/b/be/GGST_Jack-O_jH.png/798px-GGST_Jack-O_jH.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/b/be/GGST_Jack-O_jH.png/798px-GGST_Jack-O_jH.png",
+      "damage": ["20","15"],
+      "guard": "HIGH",
+      "startup": ["11"],
+      "active": ["3","3"],
+      "recovery": "32",
+      "on_block": "air"
+    },
+    "jd": {
+      "image_url": "https://dustloop.com/wiki/images/thumb/e/e2/GGST_Jack-O_jD.png/537px-GGST_Jack-O_jD.png",
+      "hitbox_url": "https://dustloop.com/wiki/images/thumb/e/e2/GGST_Jack-O_jD.png/537px-GGST_Jack-O_jD.png",
+      "damage": ["30"],
+      "guard": "ALL",
+      "startup": ["21"],
+      "active": ["~"],
+      "recovery": "~",
+      "on_block": "air"
     }
   }
 }

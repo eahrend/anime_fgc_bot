@@ -9,5 +9,7 @@ func ApplyRoutes(r *gin.RouterGroup) {
 	charactersAPI := r.Group("/character")
 	{
 		charactersAPI.GET("/:game/:name", getCharacter)
+		charactersAPI.GET("/:game/:name/normals/:normal", getCharacterNormal)
+		charactersAPI.POST("/", addCharacter)
 	}
 }
