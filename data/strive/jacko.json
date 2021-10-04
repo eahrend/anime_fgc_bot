@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "normal_moves": {
+    "5p": {
+      "image_url": "https://dustloop.com/wiki/index.php?title=File:GGST_Jack-O_5P.png",
+      "hitbox_url": "https://dustloop.com/wiki/index.php?title=File:GGST_JackO_5P_Hitbox.png",
+      "damage": ["23"],
+      "guard": "ALL",
+      "startup": "5",
+      "active": "4",
+      "recovery": "8",
+      "on_block": "-2",
+      "gatling_options": ["5P", "2P", "6P", "6H"]
+    }
+  }
+}
