@@ -5,6 +5,276 @@
   "game_name": "Guilty Gear Strive",
   "character_name_simplified": "jacko",
   "page_url": "https://www.dustloop.com/wiki/api.php?action=parse&format=json&page=GGST/Jack-O",
+  "super_moves": {
+    "632146P": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/1f/GGST_JackO_Forever_Elysion_Driver_Hitbox.png/776px-GGST_JackO_Forever_Elysion_Driver_Hitbox.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/1f/GGST_JackO_Forever_Elysion_Driver_Hitbox.png/776px-GGST_JackO_Forever_Elysion_Driver_Hitbox.png",
+      "damage": ["179"],
+      "recovery": "58",
+      "startup": ["10","10","1"],
+      "active": ["2"],
+      "name": "forever elysion driver",
+      "name_simplified": "fed",
+      "guard": "THROW",
+      "invulnerability": "All 1~12F, Throw 1~55F",
+      "meter_cost": "50"
+    },
+    "236236S": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/5/50/GGST_Jack-O_236236S.png/488px-GGST_Jack-O_236236S.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/5/50/GGST_Jack-O_236236S.png/488px-GGST_Jack-O_236236S.png",
+      "damage": ["-"],
+      "recovery": "13",
+      "startup": ["3"],
+      "active": ["-"],
+      "name": "cheer servant guard",
+      "name_simplified": "cheer_servant_guard",
+      "guard": "-",
+      "meter_cost": "50"
+    },
+    "236236H": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/e/e8/GGST_Jack-O_236236H.png/488px-GGST_Jack-O_236236H.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/e/e8/GGST_Jack-O_236236H.png/488px-GGST_Jack-O_236236H.png",
+      "damage": ["-"],
+      "recovery": "13",
+      "startup": ["3"],
+      "active": ["-"],
+      "name": "cheer servant recharge",
+      "name_simplified": "cheer_servant_recharge",
+      "guard": "-",
+      "meter_cost": "50"
+    }
+  },
+  "special_moves": {
+    "236p": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/3/37/GGST_Jack-O_Summon_Servant.png/316px-GGST_Jack-O_Summon_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/3/37/GGST_Jack-O_Summon_Servant.png/316px-GGST_Jack-O_Summon_Servant.png",
+      "damage": ["-"],
+      "recovery": "25",
+      "startup": ["10"],
+      "name": "summon servant",
+      "name_simplified": "summon_servant",
+      "guard": "-"
+    },
+    "236[p]": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/3/37/GGST_Jack-O_Summon_Servant.png/316px-GGST_Jack-O_Summon_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/3/37/GGST_Jack-O_Summon_Servant.png/316px-GGST_Jack-O_Summon_Servant.png",
+      "damage": ["-"],
+      "recovery": "14",
+      "startup": ["10"],
+      "name": "hold summon servant",
+      "name_simplified": "hold_summon_servant",
+      "guard": "-"
+    },
+    "2p": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "14",
+      "startup": ["-"],
+      "name": "pickup servant",
+      "name_simplified": "pickup_servant",
+      "notes": "near servant",
+      "guard": "-"
+    },
+    "6p": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "throw servant p",
+      "name_simplified": "throw_servant_p",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "6k": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "throw servant k",
+      "name_simplified": "throw_servant_k",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "6s": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "throw servant s",
+      "name_simplified": "throw_servant_s",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "6h": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "throw servant h",
+      "name_simplified": "throw_servant_h",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "6d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/a/ab/GGST_JackO_Pick_Up_Servant.png/645px-GGST_JackO_Pick_Up_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "throw servant d",
+      "name_simplified": "throw_servant_d",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "5d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/1f/GGST_JackO_Release_Servant.png/314px-GGST_JackO_Release_Servant.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/1f/GGST_JackO_Release_Servant.png/314px-GGST_JackO_Release_Servant.png",
+      "damage": ["-"],
+      "recovery": "-",
+      "startup": ["-"],
+      "name": "drop servant",
+      "name_simplified": "drop_servant",
+      "notes": "must be holding a servant",
+      "guard": "-"
+    },
+    "214p": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/c/ca/GGST_Jack-O_214P.png/618px-GGST_Jack-O_214P.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/c/ca/GGST_Jack-O_214P.png/618px-GGST_Jack-O_214P.png",
+      "damage": ["-"],
+      "guard": "-",
+      "recovery": "24",
+      "startup": ["3+7"],
+      "name": "recover servant",
+      "name_simplified": "recover servant",
+      "notes": "servant must be summoned"
+    },
+    "214k": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/15/GGST_Jack-O_214K.png/800px-GGST_Jack-O_214K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/15/GGST_Jack-O_214K.png/800px-GGST_Jack-O_214K.png",
+      "damage": ["50"],
+      "guard": "ALL",
+      "recovery": "24",
+      "active": ["6"],
+      "on_block": "15",
+      "startup": ["3+7"],
+      "name": "attack command",
+      "name_simplified": "attack command",
+      "notes": "servant must be summoned"
+    },
+    "214s": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/15/GGST_Jack-O_214K.png/800px-GGST_Jack-O_214K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/15/GGST_Jack-O_214K.png/800px-GGST_Jack-O_214K.png",
+      "damage": ["-"],
+      "guard": "ALL",
+      "recovery": "24",
+      "active": ["28"],
+      "startup": ["3+1"],
+      "name": "defend command",
+      "on_block": "31",
+      "name_simplified": "defend_command",
+      "notes": "servant must be summoned"
+    },
+    "214h": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/e/ec/GGST_Jack-O_214H.png/641px-GGST_Jack-O_214H.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/e/ec/GGST_Jack-O_214H.png/641px-GGST_Jack-O_214H.png",
+      "damage": ["80"],
+      "guard": "ALL",
+      "recovery": "24",
+      "active": ["19"],
+      "startup": ["3","180","26"],
+      "name": "destruct command",
+      "on_block": "-",
+      "name_simplified": "destruct_command",
+      "notes": "servant must be summoned"
+    },
+    "236k": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "damage": ["31"],
+      "guard": "ALL",
+      "recovery": "26",
+      "active": ["19"],
+      "startup": ["15"],
+      "name": "kick servant",
+      "on_block": "-12",
+      "name_simplified": "kick_servant"
+    },
+    "236k~236p": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "damage": ["31"],
+      "guard": "ALL",
+      "recovery": "26",
+      "active": ["19"],
+      "startup": ["15"],
+      "name": "kick into summon",
+      "on_block": "-12",
+      "name_simplified": "kick_into_summon"
+    },
+    "236k~236[p]": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "damage": ["31"],
+      "guard": "ALL",
+      "recovery": "26",
+      "active": ["19"],
+      "startup": ["15"],
+      "name": "kick into summon held",
+      "on_block": "2",
+      "name_simplified": "kick_into_summon_hold"
+    },
+    "236k~214x": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/1/11/GGST_Jack-O_236K.png/709px-GGST_Jack-O_236K.png",
+      "damage": ["31"],
+      "guard": "ALL",
+      "recovery": "26",
+      "active": ["19"],
+      "startup": ["15"],
+      "name": "kick into command",
+      "on_block": "-8",
+      "name_simplified": "kick_into_command"
+    }
+  },
+  "throws" : {
+    "6d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "damage": ["80"],
+      "recovery": "38",
+      "startup": ["2"],
+      "active": "3"
+    },
+    "4d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "damage": ["80"],
+      "recovery": "38",
+      "startup": ["2"],
+      "active": "3"
+    },
+    "j6d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/9/91/GGST_JackO_Ground_Throw.png/670px-GGST_JackO_Ground_Throw.png",
+      "damage": ["80"],
+      "recovery": "38",
+      "startup": ["2"],
+      "active": "3"
+    },
+    "j4d": {
+      "image_url": "https://www.dustloop.com/wiki/images/thumb/7/79/GGST_JackO_Air_Throw.png/670px-GGST_JackO_Air_Throw.png",
+      "hitbox_url": "https://www.dustloop.com/wiki/images/thumb/7/79/GGST_JackO_Air_Throw.png/670px-GGST_JackO_Air_Throw.png",
+      "damage": ["80"],
+      "recovery": "Until L+10",
+      "startup": ["2"],
+      "active": "3"
+    }
+  },
   "normal_moves": {
     "5p": {
       "image_url": "https://dustloop.com/wiki/images/thumb/0/08/GGST_Jack-O_5P.png/599px-GGST_Jack-O_5P.png",
